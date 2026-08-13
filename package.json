@@ -1,0 +1,22 @@
+{
+  "name": "dstr-lingo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Duolingo-style game for revising DSTR (Data Structures) exam answers.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-content.mjs",
+    "prebuild": "npm run validate"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
